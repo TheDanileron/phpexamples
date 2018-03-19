@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/index_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+	<script>
+    	mocha.setup('bdd');
+  	</script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+	<script>
+	  var assert = chai.assert;
+	</script>
+	<script src="resources/js/script.js" async></script>
+	<script src="resources/js/test.js"></script>
+
+</head>
+<body>
+
+<div class="main">
+	<h1>I FUCKING LOOVE JAVASCRIPT AND JAVA AND MVC AND PHP AND ....</h1>
+
+<form method="post" action="lessons.php">
+	<p>Введите имя <input type="text" name="name"></p>
+	<p>Введите фамилию <input type="text" name="surname"></p>
+
+	<legend>Какие животные вам нравяться(которых вы не едите)</legend>
+		<fieldset>
+		<label for="Собака">
+			<input type="checkbox" id="dogbox" name="animal[]" value="dog"> Собака
+		</label>
+		<label for="Кот">
+			<input type="checkbox" id="catbox" name="animal[]" value="cat"> Кот
+		</label>
+		<label for="Хомяк">
+			<input type="checkbox" id="humsterbox" name="animal[]" value="humster"> Хомяк
+		</label>
+	</fieldset>
+	<p><input type="submit" name="submit"></p>
+</form>
+</div>
+
+</body>
+</html>

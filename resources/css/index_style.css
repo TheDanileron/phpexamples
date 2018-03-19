@@ -1,0 +1,16 @@
+body{
+	background-color: #6d1313;
+}
+h4,h3,h2,h1{
+	text-align: center;
+}
+.main{
+	border-radius: 10px;
+	width: 70%;
+	height: 600px;
+	background-color: wheat; 
+	 margin: 0 auto;
+}
+a{
+	margin: 0 auto;
+}
